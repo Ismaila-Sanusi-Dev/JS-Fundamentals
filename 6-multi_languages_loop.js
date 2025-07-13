@@ -1,4 +1,10 @@
 const lines = ["C is fun", "Python is cool", "JavaScript is amazing"];
-for (const line of lines) {
- console.log(line);
+let result = "";
+let i = 0;
+while (i < lines.length) {
+    result += lines[i] + `\n`;
+    i++;
 }
+
+ console.log(result.trim());
+
