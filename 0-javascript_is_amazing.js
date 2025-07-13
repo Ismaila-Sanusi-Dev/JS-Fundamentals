@@ -1,2 +1,2 @@
-const myVar = "Javascript_is_amazing";
+const myVar = "JavaScript_is_amazing";
 console.log(myVar);
